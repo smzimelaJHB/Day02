@@ -5,14 +5,6 @@ void ft_putchar(char c)
   write(1,&c,1);
 }
 
-void ft_print_numbers();
-
-int main()
-{
-        ft_print_numbers();
-        return 0;
-}
-
 void ft_print_numbers()
 {
         char  num  = '0';
